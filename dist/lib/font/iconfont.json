@@ -1,0 +1,114 @@
+{
+  "id": "1664982",
+  "name": "no name",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "10304215",
+      "name": "展开符号",
+      "font_class": "zhankaifuhao",
+      "unicode": "e616",
+      "unicode_decimal": 58902
+    },
+    {
+      "icon_id": "4144167",
+      "name": "声音 音量 线性",
+      "font_class": "shengyinyinliangxianxing",
+      "unicode": "e94d",
+      "unicode_decimal": 59725
+    },
+    {
+      "icon_id": "5486691",
+      "name": "订单管理",
+      "font_class": "dingdanguanli",
+      "unicode": "e629",
+      "unicode_decimal": 58921
+    },
+    {
+      "icon_id": "6004570",
+      "name": "定位",
+      "font_class": "icon-dingwei",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "6952320",
+      "name": "购物车-23",
+      "font_class": "gouwuche",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "13021905",
+      "name": "搜索",
+      "font_class": "sousuo1",
+      "unicode": "e649",
+      "unicode_decimal": 58953
+    },
+    {
+      "icon_id": "50788",
+      "name": "全部类目",
+      "font_class": "allcate",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "305964",
+      "name": "tsdyf-会员俱乐部",
+      "font_class": "tsdyfhuiyuanjulebu",
+      "unicode": "e679",
+      "unicode_decimal": 59001
+    },
+    {
+      "icon_id": "3862299",
+      "name": "倒计时",
+      "font_class": "daojishi",
+      "unicode": "e60d",
+      "unicode_decimal": 58893
+    },
+    {
+      "icon_id": "5909569",
+      "name": "jd",
+      "font_class": "jd",
+      "unicode": "e714",
+      "unicode_decimal": 59156
+    },
+    {
+      "icon_id": "8470661",
+      "name": "微博",
+      "font_class": "weibo",
+      "unicode": "e60c",
+      "unicode_decimal": 58892
+    },
+    {
+      "icon_id": "11996503",
+      "name": "weixin",
+      "font_class": "weixin",
+      "unicode": "e6c8",
+      "unicode_decimal": 59080
+    },
+    {
+      "icon_id": "12699614",
+      "name": "QQ",
+      "font_class": "QQ",
+      "unicode": "e651",
+      "unicode_decimal": 58961
+    },
+    {
+      "icon_id": "9318697",
+      "name": "姓名 用户名 昵称",
+      "font_class": "xingmingyonghumingnicheng",
+      "unicode": "e62e",
+      "unicode_decimal": 58926
+    },
+    {
+      "icon_id": "13042071",
+      "name": "密码 #ffffff & 20px",
+      "font_class": "suo",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    }
+  ]
+}

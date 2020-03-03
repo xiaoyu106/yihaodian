@@ -1,26 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>1号店登录</title>
-    <link rel="stylesheet" href="../../font/iconfont.css">
+    <link rel="stylesheet" href="../lib/font/iconfont.css">
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/login.css">
 </head>
+
 <body>
     <!-- header -->
     <div class="headerwrap clean">
         <div class="header">
             <a href="http://www.yhd.com" class="logo">
-                <img src="https://passport.yhd.com/front-passport/passport/images/loginlogo.jpg" >
+                <img src="https://passport.yhd.com/front-passport/passport/images/loginlogo.jpg">
             </a>
             <div class="login-right">
                 <span class="fr">
-                    您好，欢迎光临1号店！ 
+                    您好，欢迎光临1号店！
                     <a href="./login.html" class="blue_link">请登录</a>
                 </span>
-            </div>  
+            </div>
         </div>
     </div>
     <!-- content -->
@@ -33,30 +35,33 @@
             </div>
 
             <div class="f-right">
+                <div class="err">
+                    <span>请输入账号和密码</span>
+                </div>
                 <div class="denglu">
 
                     <div class="item clean">
                         <h3>1号店用户</h3>
-                        <a >注册新用户</a>
+                        <a>注册新用户</a>
                     </div>
                     <div class="login-form">
                         <div class="one">
                             <i class="iconfont icon-xingmingyonghumingnicheng"></i>
-                            <input type="text" placeholder="邮箱/手机/用户名" class="name ">
+                            <input type="text" placeholder="邮箱/手机/用户名" class="username ">
                         </div>
                         <br>
                         <div class="one">
                             <i class="iconfont icon-suo"></i>
                             <input type="password" placeholder="密码" class="password">
                         </div>
-                       <br>
-                       <div class="two">
-                        <input type="checkbox">
-                        <span>自动登录</span>
-                        <a href="#" style="float: right;">忘记密码？</a>
-                       </div>
                         <br>
-                        <input type="button" value="登录" class="button">
+                        <div class="two">
+                            <input type="checkbox">
+                            <span>自动登录</span>
+                            <a href="#" style="float: right;">忘记密码？</a>
+                        </div>
+                        <br>
+                        <input type="button" value="登录" class="button" id="button">
                         <br>
                         <br>
                         <span class="more">更多合作网站登录</span>
@@ -69,7 +74,7 @@
                         </ul>
                     </div>
                 </div>
-                
+
             </div>
 
         </div>
@@ -81,8 +86,14 @@
         <span>|</span>
         <a>沪B2-20170039</a>
         <span>|</span>
-        <a href="http://d7.yihaodianimg.com/N09/M07/BD/7B/ChEi11kJnKaAJQMrAAK-LnhML4o60600.jpg" data-ref="YHD_Footer_Licence" target="_blank">营业执照</a>
+        <a href="http://d7.yihaodianimg.com/N09/M07/BD/7B/ChEi11kJnKaAJQMrAAK-LnhML4o60600.jpg"
+            data-ref="YHD_Footer_Licence" target="_blank">营业执照</a>
         <p>Copyright © 1号店网上超市 2007-2018，All Rights Reserved</p>
     </div>
+    <script src="../lib/jquery/dist/jquery.min.js"></script>
+    <script src="../js/login.js"></script>
+    <script src="../lib/axios.min.js" type="text/javascript" charset="utf-8"></script>
+    
 </body>
+
 </html>

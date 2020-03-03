@@ -23,6 +23,7 @@
 .blue_link{
     color: #06c;
 }
+.blue_link:hover{color:red;}
 /* content */
 .contentwrap{
     background: url(../images/shadow.png) repeat-x;
@@ -44,6 +45,17 @@
     background:#fff;
     padding: 45px 35px 0 35px;
 }
+.err{
+    border:1px solid #dedede;
+    width:330px;
+    height:30px;
+    background: sandybrown;
+    line-height: 30px;
+    display:none;
+}
+.err span{
+    margin-left: 10px;
+}
 .item{
     width:330px;
     height:30px;
@@ -61,6 +73,7 @@
     color:#06c;
     line-height: 30px;
 }
+.item a:hover{color:red;}
 .one{
     width: 330px;
     height: 54px;
@@ -70,7 +83,7 @@
     line-height: 54px;
     padding: 0 18px;
 }
-.name{
+.username{
     margin-left: 20px;
 }
 .password{
@@ -109,6 +122,7 @@
     color:#333;
     margin: 0 8px;
 }
+.footer a:hover{color:red;}
 .footer p{
     margin-top: 10px;
     color:#333;
