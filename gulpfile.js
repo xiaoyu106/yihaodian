@@ -86,9 +86,13 @@ const serverHandler = () => {
                proxies: [
                  // 每一个代理配置就是一个对象
                  {
-                   source: '/dt', // 源, 你的代理标识符
+                   source: '/login', // 源, 你的代理标识符
                    // 你直接请求下面这个地址压根也拿不到东西, 因为跨域了
                    target: 'http://jx.xuzhixiang.top/ap/api/login.php' // 目标, 你要代理的地址
+                 },
+                 {
+                   source:'/gt',
+                   target:'http://jx.xuzhixiang.top/ap/api/all-province.php'
                  }
                ]
              })) // 开启服务器

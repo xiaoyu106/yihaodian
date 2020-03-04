@@ -2,7 +2,6 @@
 let nameIpt = document.querySelector('.username')
 let passIpt = document.querySelector('.password')
 let btn = document.querySelector('#button')
-//let form=document.querySelector('form')
 let errorInfo = document.querySelector('.err')
 //2、绑定事件
 btn.onclick = function (e) {
@@ -18,7 +17,7 @@ btn.onclick = function (e) {
 	}
 	//发送请求
 	$.ajax({
-		url: 'http://jx.xuzhixiang.top/ap/api/login.php',
+		url: '/login',
 		data: {
 			username: 'admin',
 			password: '123456'
