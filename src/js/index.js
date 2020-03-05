@@ -36,11 +36,11 @@ function getList1() {
             res.forEach(item => {
                 str1 += `
               <li>
-                <p>${ item.title }</p>
+                <p><a href="./list.html">${ item.title }</a></p>
                 <ol>
             `
                 item.list.forEach(item2 => {
-                    str1 += `<li>${ item2.name }</li>`
+                    str1 += `<li><a href="./list.html">${ item2.name }</a></li>`
                 })
 
                 str1 += `
@@ -58,6 +58,8 @@ var listall=document.querySelector('.list-all')
 listIpt.onmouseenter=function(){
     listall.style.display='block'
 }
-listall.onmouseout=function(){
+listall.onmouseleave=function(){
     listall.style.display='none'
 }
+
+

@@ -36,7 +36,7 @@
 .list ul li:nth-child(4){margin-left:45px;}
 .list ul li a:hover{color:red;}
 /* banner */
-.list-all{width:1606px;height:420px;border:solid 1px red;background: pink;
+.list-all{width:1606px;height:420px;border:solid 1px red;background:#fff;
     margin: 0 auto;z-index: 1;position: absolute;left:148px;display: none;}
 .list-all ul{width:100%;padding:20px;display: flex;flex-wrap: wrap;}
 .list-all ul p{font-size: 18px;font-weight: 900;color:#000}
@@ -47,10 +47,12 @@
 .list-all ul>li:nth-child(12){border:none}
 .list-all ul li ol{display: flex;flex-wrap: wrap;}
 .list-all ul li ol li{width:50%;font-size: 18px;color:#000;line-height: 25px;}
-.list-all ul p:hover{color:red}
-.list-all ul li ol li:hover{color:red;}
+.list-all ul p a:hover{color:red}
+.list-all ul li ol li a:hover{color:red;}
 .banner{position: relative;}
 .banner img{position: absolute;left:-158px;top:0;}
+.item li{opacity: 0;}
+
 /* bannernav */
 .bannernav ul{position: absolute; left:700px;margin-top: 380px;}
 .bannernav ul li{width: 165px;height:61px;float: left;line-height: 61px;text-align: center;}

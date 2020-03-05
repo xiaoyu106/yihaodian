@@ -91,8 +91,8 @@ const serverHandler = () => {
                    target: 'http://jx.xuzhixiang.top/ap/api/login.php' // 目标, 你要代理的地址
                  },
                  {
-                   source:'/gt',
-                   target:'http://jx.xuzhixiang.top/ap/api/all-province.php'
+                   source:'/dm',
+                   target:'https://search.damai.cn/searchajax.html'
                  }
                ]
              })) // 开启服务器
