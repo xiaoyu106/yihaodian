@@ -131,6 +131,6 @@ $('.goods-list>ul').on('click','li',function(){
         }
     }
    // console.log(data)
-   localStorage.setItem('goods_Info',JSON.stringify(data))
+   localStorage.setItem('goodsInfo',JSON.stringify(data))
     window.location.href='./detail.html'
 })

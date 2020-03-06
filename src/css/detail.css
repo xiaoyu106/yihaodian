@@ -50,7 +50,11 @@
 .list-all ul p a:hover{color:red}
 .list-all ul li ol li a:hover{color:red;}
 
-
+/* detail */
+.detail{width:1606px;height:600px;border:solid 1px #333;margin: 20px auto;display: flex;align-items: center;}
+.detail .goods-left{width:400px;display: flex;justify-content: center;align-items: center;}
+.detail .goods-right{flex: 1;display: flex;justify-content: space-between;flex-direction: column;height: 460px;font-size: 40px;}
+.detail .goods-right button{width:200px;height:50px;font-size: 20px;cursor: pointer;}
 /* pagi */
 .pagi{height:100px;display: flex;justify-content:center;align-items: center;}
 

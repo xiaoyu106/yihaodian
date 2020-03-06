@@ -24,7 +24,7 @@
 .search2{width: 179px;height:58px;border-radius: 27px;margin-left: 24px;border:solid 2px #e2e2e2;line-height: 58px;}
 .search1 span{font-size: 20px;color: #757575;margin-left: 50px;}
 .search1 i{font-size: 29px;color: #666696;margin-right: 31px; }
-.search2 span{font-size: 23px;color:#272636;}
+.search2 span a{font-size: 23px;color:#272636;}
 .search2 i{font-size: 24px;color: #272636;margin-left: 36px;margin-right: 10px;}
 .nav1 li{float: left;}
 .nav1 li a{font-size: 19px;color:#aaaaaa;margin-right: 17px;}
