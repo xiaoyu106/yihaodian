@@ -52,6 +52,7 @@ function bindHtml() {
 }
 
 $('.add-cart').click(() => {
+
     const cartList = JSON.parse(localStorage.getItem('cartList')) || []
     //判断localstorage里面有没有这个数据，如果没有就push，有就不用push了，直接将其数量加1
     let exits = cartList.some(item => {

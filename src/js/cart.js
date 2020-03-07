@@ -1,38 +1,3 @@
-function getList1() {
-    $.ajax({
-        url: '../lib/list.json',
-        dataType: 'json',
-        success: function (res) {
-            console.log(res)
-            let str1 = ''
-            res.forEach(item => {
-                str1 += `
-              <li>
-                <p><a href="./list.html">${ item.title }</a></p>
-                <ol>
-            `
-                item.list.forEach(item2 => {
-                    str1 += `<li><a href="./list.html">${ item2.name }</a></li>`
-                })
-
-                str1 += `
-                </ol>
-              </li>
-            `
-            })
-            $('.list-all > ul').html(str1)
-        }
-    })
-}
-getList1()
-var listIpt = document.querySelector('.all-list')
-var listall = document.querySelector('.list-all')
-listIpt.onmouseenter = function () {
-    listall.style.display = 'block'
-}
-listall.onmouseleave = function () {
-    listall.style.display = 'none'
-}
 
 
 const cartList = JSON.parse(localStorage.getItem('cartList'))
@@ -42,6 +7,7 @@ if (!cartList) {
     bindHtml()
     bindEvent()
 }
+console.log(cartList)
 //采用整体渲染页面的方法
 function bindHtml() {
     let selectAll = cartList.every(item => {
@@ -137,13 +103,16 @@ function bindEvent() {
         localStorage.setItem('cartList', JSON.stringify(cartList))
     })
     $('.cart').on('click', '.del', function () {
+
         const id = $(this).data('id')
         cartList.forEach(item => {
             if (item.id === id) {
-                
+                cartList.splice(item, 1)
             }
         })
         bindHtml()
         localStorage.setItem('cartList', JSON.stringify(cartList))
+        location.reload()
     })
+   
 }

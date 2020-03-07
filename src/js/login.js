@@ -33,23 +33,4 @@ btn.onclick = function (e) {
 		}
 	})
 }
-//首页loation。her
-//列表点击事件   li的 id    网址 #`${id}` 
-//详情   locatiao.hash（）【1】   foreach  v.id= id   v.name    v.img 
-//   html=``
-//  Arr.foreach(function(v){
-         
-// 	if(v.id=id){
-// 		html=`<li>
-// 		<img>${v.img}</img>
-// 		</li>`
-// 	}
-//  })
-    // $("li").click(function(){
-	// 	 let id=$(this).id
-	// 	location.href("localhost.8080/html"+`#${id}`)
-	// })
-
-//详情-》购物车  没登录=》登录
-//购物车      getcookie（）获取没有值 你就跳转到登录页面
-//登陆页面   点击登录     setcookie       
+     
